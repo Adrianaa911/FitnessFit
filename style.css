@@ -155,6 +155,12 @@ img {
     height: 60px;
 }
 
+.BFIT:hover {
+    color: var(--babyblue);
+    font-size: 30px;
+    cursor: pointer;
+}
+
 .btnG {
     padding: 1rem 2rem;
     outline: none;
