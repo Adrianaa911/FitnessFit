@@ -560,7 +560,7 @@ a {
 /* OUR PRICING SECTION*/
 
 .price__container .section__header {
-    font-size: 33px;
+    font-size: 30px;
     margin-top: 50px;
 }
 
@@ -569,18 +569,17 @@ a {
     margin-left: 380px;
     display: flex;
     flex-wrap: wrap;
-    gap: 3rem;
+    gap: 5rem;
     color: var(--white);
     font-size: 10px;
-    
 }
 
 .price__card{
     padding: 3rem 2rem;
     display: flex;
     flex-direction: column;
-    width: 380px;
-    height: 490px;
+    width: 300px;
+    height: 380px;
     background-color: var(--primary-color-light);
     border: 2px solid transparent;
     border-radius: 10px;
@@ -605,49 +604,48 @@ a {
     font-size: 1.2rem;
     font-weight: 600;
     color: var(--white);
-    font-size: 17px;
-   
+    font-size: 18px;
 }
 
 .price__card h3 {
     padding-bottom: 1rem;
     margin-bottom: 2rem;
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-weight: 600;
     color: var(--white);
     border-radius: 2px solid var(--white);
 }
 
 .price__card p {
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.2rem;
     color: var(--white);
-    font-size: 15px;
-
+    font-size: 14px;
 }
 
 .price__card p i{
     margin-right: 0.5 rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: var(--babyblue);
 }
 
 .price__btn {
     color: var(--secondary-color);
     background-color: transparent;
-    border: 3px solid var(--babyblue);
-    font-size: 16px;
-    width: 300px;
-    height: 45px;
+    border: 1.5px solid var(--babyblue);
+    font-size: 14px;
+    width: 180px;
+    height: 40px;
     border-radius: 5px;
 }
 
 .price__btn:hover {
     color: var(--babyblue);
     background-color: transparent;
-    border: 3px solid var(--secondary-color);
-    font-size: 20px;
-    width: 300px;
-    height: 50px;
+    border: 2px solid var(--secondary-color);
+    font-size: 17px;
+    font-weight: bold;
+    width: 195px;
+    height: 45px;
     border-radius: 5px;
 }
 
@@ -683,7 +681,7 @@ a {
     margin-top: 2.5rem;
     margin-bottom: 2rem;
     color: var(--white);
-    font-size: 16px;
+    font-size: 17px;
 }
 
 .review__raiting span {
@@ -692,7 +690,7 @@ a {
 }
 
 .review__footer {
-    margin-top: 4rem;
+    margin-top: 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -701,19 +699,20 @@ a {
 
 .review__member {
     display: flex;
-    align-items: flex-start;
-    gap: 1rem;
+    align-items: flex-end;
+    gap: 0.5rem;
 }
 
 .review__member img {
-    width: 50px;
+    width: 55px;
     height: 65px;
     border-radius: 50%;
+    margin-bottom: 0.5rem;
 }
 
 .review__member__details h4 {
-    margin-bottom: 0;
-    font-size: 18px;
+    margin-bottom: 1px;
+    font-size: 17px;
 }
 
 .review__member__details p {
@@ -757,7 +756,7 @@ a {
     margin-bottom: 2rem;
     margin-left: 20px;
     color: var(--white);
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .footers__col {
