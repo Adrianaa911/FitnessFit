@@ -356,11 +356,11 @@ a {
 
 .explore__grid{
     margin-top: 3rem;
-    margin-left: 120px;
+    margin-left: 100px;
     margin-bottom: 200px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 0.3rem;
+    
 }
 
 .explore__card{
@@ -370,7 +370,7 @@ a {
     border-radius: 15px;
     transition: 0.3s;
     width: 280px;
-    height: 320px;
+    height: 350px;
     box-shadow: 0px 10px 20px 0px var(--secondary-color);
 
 }
